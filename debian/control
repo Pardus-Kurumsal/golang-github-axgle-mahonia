@@ -1,0 +1,12 @@
+Source: golang-github-axgle-mahonia
+Section: devel
+Priority: optional
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/axgle/mahonia
+
+Package: golang-github-axgle-mahonia-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: character-set conversion library implemented in Go
